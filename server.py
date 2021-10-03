@@ -99,7 +99,7 @@ class Server:
 # =====================================================================================================================
 
 
-server = Server("User_server", "26.215.237.217", 1030, 1)
+server = Server("User_server", "...", 1030, 1)
 
 server.bind_server()  # binding connections
 server.listen_connections()  # listening connections
